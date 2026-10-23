@@ -1,0 +1,75 @@
+body {
+font-family: "Helvetica", sans-serif;
+  line-height: 1.6;
+
+}
+
+h2 {
+color: #523C44;
+}
+
+h3 {
+color: #d9c5b2;
+}
+#contact {
+background-color: #523C44;
+padding: 2%;
+}
+.headshot-circle {
+    width: 220px;
+    height: 220px;
+    background-color: #d9c5b2;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+strong {
+    color: #d9c5b2;
+}
+
+a {
+    color:aliceblue;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+.image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.special-link {
+    color: #b56576;
+    text-decoration: underline;
+}
+
+.special-link:hover {
+    color: #6d597a;
+}
+
+.special-link:visited {
+    color: #8e6c88;
+}
+
+
+.back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #b56576;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.phone-number {
+    color: aliceblue;
+}
